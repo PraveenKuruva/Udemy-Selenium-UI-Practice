@@ -19,9 +19,9 @@ public class SelIntroduction {
 
 		// Chrome
 
-		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ext06629\\Documents\\Praveen\\TechM-Selenium-Course\\Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\prave\\Documents\\Praveen\\Driver\\chromedriver.exe");
 
-		//WebDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 
 
 
@@ -33,9 +33,9 @@ public class SelIntroduction {
 
 		//Microsoft Edge
 
-		System.setProperty("webdriver.edge.driver", "C:\\Users\\Ext06629\\Documents\\Praveen\\TechM-Selenium-Course\\Driver\\msedgedriver.exe");
-
-		WebDriver driver = new EdgeDriver();
+//		System.setProperty("webdriver.edge.driver", "C:\\Users\\prave\\Documents\\Praveen\\Driver\\msedgedriver.exe");
+//
+//		WebDriver driver = new EdgeDriver();
 
 		driver.get("https://rahulshettyacademy.com");
 
