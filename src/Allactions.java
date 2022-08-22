@@ -9,7 +9,7 @@ public class Allactions {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\prave\\Documents\\Praveen\\Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\prave\\OneDrive\\Documents\\Praveen\\Driver\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
