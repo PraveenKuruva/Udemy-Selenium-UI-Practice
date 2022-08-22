@@ -32,7 +32,7 @@ public class SSLCheck {
 
 		options.setAcceptInsecureCerts(true);
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ext06629\\Documents\\Praveen\\TechM-Selenium-Course\\Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\prave\\OneDrive\\Documents\\Praveen\\Driver\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver(options);
 		driver.manage().window().maximize();

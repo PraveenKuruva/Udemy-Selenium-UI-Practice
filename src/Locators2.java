@@ -12,7 +12,7 @@ public class Locators2 {
 
 		String name = "rahul";
 
-		System.setProperty("webdriver.chrome.driver", "/Users/rahulshetty/Documents/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\prave\\OneDrive\\Documents\\Praveen\\Driver\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 

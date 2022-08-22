@@ -17,8 +17,7 @@ public class Links {
 		//1. Give me the count of links on the page.
 		//2. Count of footer section-
 		
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Ext06629\\Documents\\Praveen\\TechM-Selenium-Course\\Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\prave\\OneDrive\\Documents\\Praveen\\Driver\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
